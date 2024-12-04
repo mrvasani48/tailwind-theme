@@ -2,7 +2,7 @@ import { useState } from "react";
 import { ColorPicker, Text } from "@mantine/core";
 
 function ThemeComponent() {
-  const [colorTheme, setColorTheme] = useState("#22c55e");
+  const [colorTheme, setColorTheme] = useState("#ff014f");
 
   // Update CSS variable dynamically
   const handleColorChange = (newColor) => {
